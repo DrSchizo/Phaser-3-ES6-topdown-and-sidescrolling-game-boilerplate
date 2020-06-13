@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.4" orientation="orthogonal" renderorder="right-down" width="30" height="10" tilewidth="96" tileheight="96" infinite="0" nextlayerid="7" nextobjectid="14">
+ <editorsettings>
+  <export target="tilemap_96.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="tileset" tilewidth="96" tileheight="96" spacing="2" margin="1" tilecount="36" columns="6">
+  <grid orientation="orthogonal" width="128" height="128"/>
+  <image source="tileset_96_extruded.png" width="588" height="588"/>
+  <tile id="0">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="2" name="Below" width="30" height="10">
+  <properties>
+   <property name="from" value="in"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,28,29,0,0,0,0,0,0,0,0,0,0,0,0,0,28,29,0,0,0,0,0,0,0,
+0,0,0,0,0,0,34,35,18,0,0,0,0,0,0,0,0,0,0,0,0,34,35,0,0,11,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,16,17,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,22,23,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,18,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+6,0,0,0,5,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,0,0,16,17,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22,23,0,
+19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,19,
+25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25,25
+</data>
+ </layer>
+ <layer id="1" name="World" width="30" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,31,32,33,0,0,0,0,0,0,0,0,0,0,0,1,2,2,3,0,31,33,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,31,33,0,0,0,0,7,8,8,9,0,0,0,0,0,0,
+2,2,2,3,0,0,0,0,0,0,31,32,33,0,0,0,0,1,2,21,27,8,8,9,0,0,0,31,32,33,
+8,8,8,9,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,8,8,8,9,0,0,0,0,0,0,
+2,2,2,2,2,2,3,0,0,0,0,0,0,0,0,0,0,7,8,8,8,8,8,26,20,3,0,0,0,0,
+8,8,8,8,8,8,9,0,0,0,0,0,0,0,0,0,0,7,8,8,8,8,8,8,8,9,0,31,32,33,
+8,8,8,8,8,8,9,0,0,0,0,0,0,0,0,0,0,7,8,8,8,8,8,8,8,9,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Above" width="30" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,30,24,0,0,0,0,0,0,0,0,0,0,0,0,36,0,24,0,0,0,0,0,0,0,
+0,28,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,17,0,0,0,0,0,0,0,0,0,0,0,
+0,34,35,0,0,0,0,0,0,0,0,0,12,0,0,0,0,22,23,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,16,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,11,0,22,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="3" name="Objects">
+  <object id="1" name="tilemap" type="entrance" x="48.0606" y="640.485">
+   <point/>
+  </object>
+  <object id="2" name="tilemap" type="exit" x="2838.67" y="704" width="41.3333" height="64"/>
+ </objectgroup>
+ <objectgroup id="5" name="NPCs">
+  <object id="4" name="heroin_2" x="426.667" y="636">
+   <point/>
+  </object>
+  <object id="5" name="polkin_3" type="npc" x="44.1803" y="449.467">
+   <point/>
+  </object>
+  <object id="6" name="munch_4" type="npc" x="238.667" y="452">
+   <point/>
+  </object>
+  <object id="7" name="ilvis_5" x="2446.67" y="634.667">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Enemies">
+  <object id="12" name="skeleton" x="1109.33" y="453.333">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="13" name="pumpkin" x="2250.67" y="257.333">
+   <properties>
+    <property name="direction" value="right"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+</map>
