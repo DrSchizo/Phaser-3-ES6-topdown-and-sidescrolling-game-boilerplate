@@ -7,7 +7,7 @@ More information [here](https://phaser.discourse.group/t/wip-topdown-and-sidescr
 
 ## Features
 
-- work with bith topdown and sidescrolling games
+- Work with bith topdown and sidescrolling games
 - Tiled map integration
 - Enemies, npcs and exits automaticly loaded from tiled JSON map
 - Keyboard control and Easystar pathfinding
