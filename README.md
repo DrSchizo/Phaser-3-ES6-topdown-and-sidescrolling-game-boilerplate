@@ -22,12 +22,12 @@ More information [here](https://phaser.discourse.group/t/wip-topdown-and-sidescr
 
 ## Directory structure
 
-- assets: all the assets use in the games
-- src/core: the core code share by all example
-- src/topdown: the code specific to the topdown example
-- src/sidescroller: the code specific to both sidescroller example
-- src/sidescroller-spine: the code specific to sidescroller example with spine skeletal animation
-- src/sidescroller-spritesheet: the code specific to sidescroller example with spritesheet animation
+- *assets:* all the assets used in the games
+- *src/core:* the core code shared by all example
+- *src/topdown:* the code specific to the topdown example
+- *src/sidescroller:* the code specific to both sidescroller examples
+- *src/sidescroller-spine:* the code specific to the sidescroller example with spine skeletal animation
+- *src/sidescroller-spritesheet:* the code specific to the sidescroller example with spritesheet animation
 
 ## Credits
 
