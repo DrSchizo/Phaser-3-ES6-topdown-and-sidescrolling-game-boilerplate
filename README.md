@@ -1,4 +1,5 @@
 <p align="center"><img src="https://phaser.io/images/img.png" alt="header" width="200"></p>
+
 # Phaser 3 topdown and sidescrolling game boilerplate
 
 #### A work in progress starter template for topdown and sidescrolling game made for [Phaser 3](https://phaser.io/) in ES6.
