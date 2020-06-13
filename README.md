@@ -1,5 +1,3 @@
-<p align="center"><img src="https://phaser.io/images/img.png" alt="header" width="200"></p>
-
 # Phaser 3 topdown and sidescrolling game boilerplate
 
 #### A work in progress starter template for topdown and sidescrolling game made for [Phaser 3](https://phaser.io/) in ES6.
@@ -40,3 +38,5 @@ Thanks to Michael Hadley for the [Phaser tutorial](https://itnext.io/modular-gam
 - Mouse cursors by Freepik] from [Flaticon](https://www.flaticon.com/)
 
 Spine skeletal animation are from [2D Anim Heroes](https://assetstore.unity.com/packages/2d/characters/2d-anim-heroes-41338). They are not free to use and should be bought as well as a spine license if you want to use them on your project.
+
+<p align="center"><img src="https://phaser.io/images/img.png" alt="header" width="200"></p>
