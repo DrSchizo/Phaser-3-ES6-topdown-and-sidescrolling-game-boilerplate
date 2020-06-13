@@ -20,6 +20,15 @@ More information [here](https://phaser.discourse.group/t/wip-topdown-and-sidescr
 - [Sidescroller with spritesheet animation](http://sandbox-adventure.com/phaser/0.31/sidescroller-spritesheet.html)
 - [Sidescroller with spine skeletal animation](http://sandbox-adventure.com/phaser/0.31/sidescroller-spine.html)
 
+## Directory structure
+
+- assets: all the assets use in the games
+- src/core: the core code share by all example
+- src/topdown: the code specific to the topdown example
+- src/sidescroller: the code specific to both sidescroller example
+- src/sidescroller-spine: the code specific to sidescroller example with spine skeletal animation
+- src/sidescroller-spritesheet: the code specific to sidescroller example with spritesheet animation
+
 ## Credits
 
 A huge thanks to Richard Davey for creating [Phaser](https://phaser.io/) and all the Phaser communauty for the support
