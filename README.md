@@ -1,6 +1,6 @@
-# [WIP] Phaser 3 ES6 topdown and sidescrolling game boilerplate
+# Phaser 3 topdown and sidescrolling game boilerplate
 
-A work in progress starter template for topdown and sidescrolling game made for [Phaser 3](https://phaser.io/)
+A work in progress starter template for topdown and sidescrolling game made for [Phaser 3](https://phaser.io/) in ES6.
 More information [here](https://phaser.discourse.group/t/wip-topdown-and-sidescrolling-game-boilerplate/6581)
 
 ---
