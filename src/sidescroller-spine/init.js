@@ -1,6 +1,9 @@
 import {} from '../core/init.js';
-import Spine_Game from "./Game.js";
+import Spine_Scene_Preload from "./Scene_Preload.js";
+import Spine_Scene_Tiled from "./Scene_Tiled.js";
+import Scene_UserInterface from "../core/scene/UserInterface.js";
 
+// The global variables used in the game
 window.const = {
   rep: 'sidescroller-spine',
   mainScene: 'Spine_Scene_Tiled',
@@ -16,4 +19,21 @@ window.const = {
   }
 }
 
-window.game = new Spine_Game(window.config);
+// Override the core config to add informations that are specific to the game
+Object.assign(window.config, {
+  scene: [ Spine_Scene_Preload, Spine_Scene_Tiled, Scene_UserInterface ],
+  physics: {
+    default: "arcade",
+    arcade: {
+      gravity: { y: 300 }
+    }
+  },
+  plugins: {
+    scene: [
+      // { key: 'FollowPlugin', plugin: PhaserFollowPlugin, mapping: 'follow' },
+      { key: 'SpinePlugin', plugin: window.SpinePlugin, mapping: 'spine' },
+    ]
+  }
+});
+
+window.game = new Phaser.Game(window.config);

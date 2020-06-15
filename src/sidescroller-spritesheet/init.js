@@ -1,6 +1,9 @@
 import {} from '../core/init.js';
-import Spritesheet_Game from "./Game.js";
+import Spritesheet_Scene_Preload from "./Scene_Preload.js";
+import Spritesheet_Scene_Tiled from "./Scene_Tiled.js";
+import Scene_UserInterface from "../core/scene/UserInterface.js";
 
+// The global variables used in the game
 window.const = {
   rep: 'sidescroller-spritesheet',
   mainScene: 'Spritesheet_Scene_Tiled',
@@ -12,4 +15,15 @@ window.const = {
   }
 }
 
-window.game = new Spritesheet_Game(window.config);
+// Override the core config to add informations that are specific to the game
+Object.assign(window.config, {
+  scene: [ Spritesheet_Scene_Preload, Spritesheet_Scene_Tiled, Scene_UserInterface ],
+  physics: {
+    default: "arcade",
+    arcade: {
+      gravity: { y: 400 }
+    }
+  }
+});
+
+window.game = new Phaser.Game(window.config);

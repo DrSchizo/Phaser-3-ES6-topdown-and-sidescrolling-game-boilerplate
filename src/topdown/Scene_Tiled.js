@@ -21,6 +21,8 @@ export default class Topdown_Scene_Tiled extends Scene_Tiled {
 
   preload() {
     super.preload();
+    // load the tileset and the tilemap
+    // TODO: load the tileset dynamically, as defined in the JSON file
     this.load.image("tiles", "./assets/topdown/tuxemon-1200.png");
     this.load.tilemapTiledJSON("map_"+this.mapName, "./assets/topdown/"+this.mapName+".json");
   }

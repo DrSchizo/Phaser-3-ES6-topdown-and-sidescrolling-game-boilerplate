@@ -1,6 +1,9 @@
 import {} from '../core/init.js';
-import Topdown_Game from "./Game.js";
+import Topdown_Scene_Preload from "./Scene_Preload.js";
+import Topdown_Scene_Tiled from "./Scene_Tiled.js";
+import Scene_UserInterface from "../core/scene/UserInterface.js";
 
+// The global variables used in the game
 window.const = {
   rep: 'topdown',
   mainScene: 'Topdown_Scene_Tiled',
@@ -12,4 +15,15 @@ window.const = {
   }
 }
 
-window.game = new Topdown_Game(window.config);
+// Override the core config to add informations that are specific to the game
+Object.assign(window.config, {
+  scene: [ Topdown_Scene_Preload, Topdown_Scene_Tiled, Scene_UserInterface ],
+  physics: {
+    default: "arcade",
+    arcade: {
+      gravity: { y: 0 }
+    }
+  }
+});
+
+window.game = new Phaser.Game(window.config);
