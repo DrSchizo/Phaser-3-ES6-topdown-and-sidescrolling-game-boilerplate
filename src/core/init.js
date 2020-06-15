@@ -1,5 +1,5 @@
-window.basepath = 'http://localhost/sandbox/demo/';
-// window.basepath = 'http://sandbox-adventure.com/demo/';
+// window.basepath = 'http://localhost/sandbox/demo/';
+window.basepath = 'http://sandbox-adventure.com/demo/';
 
 window.config = {
   type: Phaser.AUTO,
